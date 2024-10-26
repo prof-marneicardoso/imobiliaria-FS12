@@ -2,6 +2,17 @@
 /* Fonte */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    /* Paleta de cores */
+    --cor-primaria: #623df6;
+    --cor-destaque: #ff285a;
+    --cor-01: #f9f9f9;
+    --cor-02: #b7b7b7;
+    --cor-03: #4f4f4f;
+    --cor-04: #232323;
+}
+
+
 /* Reset */
 * {
     margin: 0;

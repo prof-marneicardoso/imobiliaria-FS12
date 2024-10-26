@@ -11,10 +11,10 @@ export default function AppRoutes() {
         <Routes>
             {/* Cada rota aponta para a sua página */}
             <Route path="/" element={<Home />} />
-            <Route path="/sobre" element={<Sobre />} />
+            <Route path="/avaliacao" element={<Avaliacao />} />
             <Route path="/contato" element={<Contato />} />
             <Route path="/imovel" element={<Imovel />} />
-            <Route path="/avaliacao" element={<Avaliacao />} />
+            <Route path="/sobre" element={<Sobre />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
     );

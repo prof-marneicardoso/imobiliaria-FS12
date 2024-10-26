@@ -1,5 +1,5 @@
 
-import Nav from '../Nav';
+import Button from '../Button';
 import './Header.css';
 
 export default function Header() {
@@ -7,7 +7,9 @@ export default function Header() {
         <header>
             <h1>Imobi Tech</h1>
 
-            <Nav />
+            {/* <Button titulo="Login" />
+            <Button titulo="Sucesso" className="btn-sucesso" />
+            <Button titulo="Erro" className="btn-erro" /> */}
         </header>
     );
 }
