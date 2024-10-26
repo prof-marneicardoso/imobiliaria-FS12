@@ -1,11 +1,12 @@
+import { BrowserRouter as Router } from "react-router-dom";
+import AppRoutes from "./routes/AppRoutes";
+
 
 function App() {
   return (
-    <div>
-      <h1>Imobi Tech</h1>
-
-      <main>Buenas</main>
-    </div>
+    <Router>
+      <AppRoutes />
+    </Router>
   )
 }
 
